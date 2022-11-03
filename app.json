@@ -2,7 +2,7 @@
   "name": "Queen-Lora-Md",
   "author": "Omindu-Anjana",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/OminduAnjane/Queen-Lora-v4.0.0.git",
+  "repository": "https://github.com/OminduAnjane/Queen-Lora-Md-v4.0-.git",
   "logo": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
