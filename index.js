@@ -5,7 +5,7 @@
 //════════════════════════════//
 
 require('./database/config')
-const { default: QueenLoraMdConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: NexusNwIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
@@ -56,7 +56,7 @@ if (global.db) setInterval(async () => {
   }, 30 * 1000)
 
 async function startQueenLoraMd() {
-    const QueenLoraMd = QueenLoraMdConnect({
+    const QueenLoraMd = NexusNwIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
         browser: ['Queen-Lora-Md','Safari','1.0.0'],
